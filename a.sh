@@ -6,7 +6,8 @@ then
     echo $Date
 fi
 echo $Date
-cat > /root/lijiahaocom.github.io/_posts/$Date-$1.md <<EOF   		
+cat > /root/lijiahaocom.github.io/_posts/$Date-$1.md <<EOF   
+---
 layout:     post
 title:      $2 
 subtitle:   $1
